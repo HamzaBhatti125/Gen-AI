@@ -1,0 +1,20 @@
+/venv
+/.venv
+/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+#env
+.env
+.env.local
+
+# Ignore vector DB directories
+vector-store/chroma_db/
+vector-store/faiss_index/
+
+*.sqlite3
+*.db
+*.db-journal
+*faiss_index
